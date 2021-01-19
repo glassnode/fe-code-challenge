@@ -1,6 +1,6 @@
 # Frontend Engineer Coding Challenge
 
-### Requirements:
+## Requirements:
 
 You will need a [Glassnode Studio Account](https://studio.glassnode.com/) and an API Key to fetch necessary data. You 
 can obtain a free key by registering a new account (studio.glassnode.com) and navigating to the 
@@ -12,8 +12,7 @@ a link to your repository.
 
 ## How to Complete a Challenge
 
-Simply organize your code in a folder, scripts and READMEs - anything you'd like to provide. Zip it and send it to us 
-once you're done. Make sure you remove node_modules.
+Simply organize your code in a folder, scripts and READMEs - anything you'd like to provide. 
 
 ## Time
 
@@ -58,7 +57,7 @@ It needs to contain basic navigation (see above) and chart component. Navigating
 information from our API and display it to the users. It needs to contain information about the Price (log scale) and 
 Difficulty (lin scale).
 
-#### Hash Rate Metric: `/hash-rate`
+### Hash Rate Metric: `/hash-rate`
 
 It needs to contain basic navigation (see above) and chart component. Navigating to that page should fetch necessary 
 information from our API and display it to the users. It needs to contain information about the Price (log scale) and 
