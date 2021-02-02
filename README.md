@@ -43,6 +43,35 @@ The app should have three pages:
 - /difficulty
 - /hash-rate
 
+
+## CORS
+
+In order to get information from our API you have to use proxy server which can prevent CORS issue.
+
+#### Use `local-cors-proxy` npm package:
+
+```
+$ npx local-cors-proxy --proxyUrl https://api.glassnode.com --proxyPartial "/"
+```
+
+or
+
+```
+$ npm install -g local-cors-proxy
+
+$ local-cors-proxy --proxyUrl https://api.glassnode.com --proxyPartial "/"
+```
+
+#### Use `cors-anywhere` app
+
+Visit https://cors-anywhere.herokuapp.com/ for more information.
+
+#### Use `CORS` browser extension
+
+If you're using Chrome: https://chrome.google.com/webstore/search/CORS?hl=en
+If you're using Firefox: https://addons.mozilla.org/en-US/firefox/search/?platform=mac&q=cors
+
+
 ### Root page: `/`
 Default entry point. It needs to contain a basic navigation component (navbar, sidebar or other) which will be displayed 
 on other pages as well. In the place where content is going to be visible there should be a message:
